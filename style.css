@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*---------------------
+        header style
+-----------------------*/
+
+
+header{
+    width: 100%;
+    height: 677px;
+    font-family: 'Poppins', sans-serif;
+    background-color: blue;
+
+}
+/*-----------------
+    navigation bar
+-------------------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1160px;
+    font-weight: 500px;
+    margin-left: 156px;
+    padding-top: 42px;
+    height: 44px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-right: 36px;
+    text-decoration: none;
+}
+.a-style{
+    text-decoration: none;
+    color: white;
+}
+li :hover{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+.Login{
+    background-color: #E02C6D;
+    padding: 10px 24px 10px 24px;
+    align-items: center;
+    justify-content: center;
+}
+/*--------------------
+     Copa   container
+----------------------*/
+.Container{
+    display: flex;
+}
+h1{
+    font-size: 64px;
+    font-weight: 700px;
+    line-height: 80px;
+    width: 485px;
+    height: 230px;
+    margin-top: 67px;
+    margin-left: 152px;
+    margin-bottom: 81px;
+    color: white;
+}
+.watch{
+    font-size: 16px;
+    text-decoration: none;
+    width: 168px;
+    height: 44px;
+    margin-left: 156px;
+    padding: 10px 24px 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+}
+.Container-img{
+    border: 2px solid blue;
+}
+img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 67px;
+    margin-left: 106px;
+    transition: 0.2s;
+    transition: ease-in-out;
+}
+.Container-img:hover img{
+    transform: rotate(30deg);
+    transition: e;
+
+}
+
+
+/*----------------------
+             
+           players
+
+-----------------------*/
+
+.players{
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 210px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px ;
+    grid-column-gap: 30px;
+}
+
+.player{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px 0px #00000026;
+}
+
+.player img{
+    width: 300px;
+    height: 256px;
+    margin: 15px 15px 16px 15px;
+}
+.player-title{
+    margin: 0px 15px 10px 15px;
+}
+.player-info{
+    margin: 0px 15px 33px 15px ;
+    text-align: justify;
+}
+/*-------------------
+         highlights
+----------------------*/
+.highlights{
+    display: flex;
+}
+.highlight-info  h4{
+    font-size: 48px;
+    width: 466px;
+    height: 120px;
+    margin-top: 224px;
+    margin-left: 182px;
+}
+.highlight-info p{
+    width: 404px;
+    height: 113px;
+    text-align: justify;
+    margin-top: 8px;
+    margin-left: 182px;
+}
+.highlight-info a{
+    font-size: 16px;
+    text-decoration: none;
+    width: 173px;
+    height: 44px;
+    margin-left: 182px;
+    padding: 10px 24px 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+}
+.highlight-img img{
+    width: 567px;
+    height: 427px;
+    margin-top: 165px;
+    margin-bottom: 69px;
+
+}
+
+/*---------------
+    footer style
+----------------*/
+.fot-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 483.87px;
+    height: 213px;
+    margin: 158px 481px 63px 370px ;
+}
+.social{
+    margin-left: 90px;
+}
+.icon{
+    width: 32px;
+    height: 32px;
+    margin-left: 20px;
+
+
+}
+.fot-style p{
+    font-size: 25px;
+    line-height: 24px;
+    margin-left: 100px;
+}
