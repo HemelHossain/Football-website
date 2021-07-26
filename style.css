@@ -195,3 +195,40 @@ img{
     line-height: 24px;
     margin-left: 100px;
 }
+
+/*------------------
+      Media Screen
+--------------------*/
+
+@media only screen and (max-width: 688px) {
+    .Container{
+        display: flex;
+        flex-direction: column;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlights{
+        display: flex;
+        flex-direction: column;
+    }
+    .fot-style{
+        margin-left: 80px;
+    }
+}
+@media only screen and (min-width:668px) and (max-width:992px) {
+    .Container{
+        width: 100%;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .highlights{
+        display: flex;
+    }
+    .fot-style{
+        margin-left: 150px;
+    }
+}
